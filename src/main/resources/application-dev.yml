@@ -28,6 +28,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+#      디버그 일때만 true여야 한다.
     show-sql: true
     properties:
       hibernate:
